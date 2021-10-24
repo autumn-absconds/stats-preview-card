@@ -1,0 +1,141 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+}
+.container{
+    background-color: hsl(244, 38%, 16%);
+    display: flex;
+    position: absolute;
+    margin-top: 20vh;
+        margin-left: 25vh;
+/*border: 2px solid black;*/
+border-radius: 8px;
+transform: scale(0.9);
+}
+
+.first-half{
+    padding: 30px 90px 10px 45px;
+  color:  hsla(0, 0%, 100%, 0.75);
+  font-family: "Lexend Deca";
+  font-weight: 400;
+}
+.top h1{
+    color :hsl(0, 0%, 100%);
+    font-family: Inter;
+  font-weight: 700;
+}
+
+.bottom{
+    display: flex;
+   line-height: 5px;
+   position: absolute;
+   margin-top:105px ;
+   color: hsla(0, 0%, 100%, 0.6);
+   font-family: "Lexend Deca";
+   font-weight: 400;
+ }
+
+
+.companies{
+    padding-right: 40px;
+}
+.companies h3{
+    font-size:22px ;
+    color :hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-weight: 400;
+}
+.companies p{
+    font-size:13px ;
+}
+
+.templates{
+    padding-right: 40px;
+}
+.templates h3{
+    font-size:22px ;
+    color :hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-weight: 400;
+}
+.templates p{
+    font-size:13px ;
+}
+
+.queries{
+    padding-right: 1px;
+}
+.queries h3{
+    font-size:22px ;
+    color :hsl(0, 0%, 100%);
+    font-family: Inter;
+    font-weight: 400;
+}
+
+.queries p{
+    font-size:13px ;
+}
+
+
+.second-half{
+    background-color:hsl(288, 88%, 53%);
+    border-radius: 0px 8px 8px 0px;
+
+}
+
+.image{
+   opacity: 60%;
+   border-radius: 0px 8px 8px 0px;
+width: 100%;
+height: 100%;
+}
+
+
+@media (max-width:375px){
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        margin: 0px;
+        
+    }
+
+    .first-half{
+        padding:15px ;
+      font-family: "Lexend Deca";
+      font-weight: 100;
+      font-size: px;
+    }
+.bottom{
+   position: relative;
+    display: flex;
+flex-direction: column;
+text-align: center;
+padding: 5px;
+margin-top: 1px;
+}
+.companies{
+    padding: 5px;
+}
+.companies p{
+    font-size:10px ;
+}
+
+.bottom h3{
+    font-size: 18px;
+}
+
+.templates{
+    padding-right: 5px;
+}
+.queries{
+    padding-right: 1px;
+}
+
+.second-half{
+    border-radius: 8px 8px 0px 0px;  
+}
+.image{
+    border-radius: 8px 8px 0px 0px; 
+}
+
+}
